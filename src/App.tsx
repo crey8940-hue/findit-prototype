@@ -20,7 +20,7 @@ import { Settings } from './pages/Settings';
 export function App() {
   return (
     <AuthProvider>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <PageBackground />
         <Toaster position="bottom-right" richColors />
         <div className="relative z-[1]">

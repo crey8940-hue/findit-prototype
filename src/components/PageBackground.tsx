@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const BACKGROUND_URL = "/435c2585-474b-4091-aa8b-d6363dbc871e.jpg";
+export const BACKGROUND_URL = import.meta.env.BASE_URL + "435c2585-474b-4091-aa8b-d6363dbc871e.jpg";
 
 
 // Campus photo + navy tint as real layers (exports to Figma as an image + rectangle).

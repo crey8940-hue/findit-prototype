@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const LOGO_URL = "/2e82a905-d148-42c2-972b-0ddddb003dbe.png";
+export const LOGO_URL = import.meta.env.BASE_URL + "2e82a905-d148-42c2-972b-0ddddb003dbe.png";
 
 
 type LogoProps = {size?: number;className?: string;};
